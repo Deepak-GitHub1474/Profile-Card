@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #060012;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card {
+  background-color: #ccc8ec;
+  width: 330px;
+  height: 430px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(11, 238, 49, 0.949) 0px 30px 60px -30px, rgba(33, 126, 219, 0.35) 0px -2px 6px 0px inset;
+  transition: 0.3s;
+  position: relative;
+}
+
+.card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(6, 245, 249, 0.949) 0px 30px 60px -30px, rgba(247, 29, 5, 0.988) 0px -2px 6px 0px inset;
+}
+
+.input-lable-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card input{
+  display: none;
+}
+
+label{
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  width: 7.6rem;
+  height: 2rem;
+  text-align: center;
+  background-color: #9c94d4;
+}
+
+.profile-img {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.star {
+  height: 30px;
+  mix-blend-mode: color-burn;
+}
+
+.info {
+  position: absolute;
+  top: 15.5rem;
+  left: 25px;
+  line-height: 1.9rem;
+  font-size: 18px;
+}
